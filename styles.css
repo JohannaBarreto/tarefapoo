@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#input-guess {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#button-guess {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#button-guess:hover {
+  background-color: #3e8e41;
+}
+
+#message {
+  font-size: 24px;
+  color: #666;
+}
+
+#attempts-remaining {
+  font-size: 18px;
+  color: #999;
+}
